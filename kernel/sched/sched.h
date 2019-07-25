@@ -2600,3 +2600,5 @@ static inline void membarrier_switch_mm(struct rq *rq,
 {
 }
 #endif
+
+bool cfs_prio_less(struct task_struct *a, struct task_struct *b);
